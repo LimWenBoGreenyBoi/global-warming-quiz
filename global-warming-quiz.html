@@ -129,7 +129,7 @@
 </main>
 
 <script>
-const questions = [
+let questions = [
   {
     q: "What is the main driver of recent global warming?",
     options: ["Changes in solar output", "Human emissions of greenhouse gases", "Natural orbital cycles", "Volcanic aerosols"],
@@ -212,7 +212,7 @@ const questions = [
   }
 ]
 
-const explanations = [
+let explanations = [
   "Human emissions of greenhouse gases (especially CO₂) dominate recent warming; solar and natural cycles cannot explain the sustained trend since the mid‑20th century.",
   "CO₂ contributes most due to its high concentration and long lifetime; water vapor is a feedback, not the primary driver.",
   "Transportation burns fossil fuels at scale, making it a major source of CO₂ alongside power generation.",
@@ -236,6 +236,24 @@ let correct = 0
 let start = performance.now()
 let selected = null
 let userAnswers = []
+
+async function loadQuestions(opts = {}) {
+  const params = new URLSearchParams()
+  if (opts.count) params.set('count', String(opts.count))
+  if (opts.seed) params.set('seed', String(opts.seed))
+  const url = `/api/quiz/global-warming${params.toString() ? ('?' + params.toString()) : ''}`
+  try {
+    const res = await fetch(url, { cache: 'no-store' })
+    if (!res.ok) throw new Error('Failed to load questions')
+    const data = await res.json()
+    const qs = data.questions || []
+    questions = qs.map(q => ({ q: q.q, options: q.options, answer: q.answer }))
+    explanations = qs.map(q => q.explanation || '')
+  } catch (err) {
+    // Fallback to embedded questions if API not available
+    console.warn('Using embedded questions (API unavailable):', err)
+  }
+}
 
 const elQ = document.getElementById('question')
 const elOpts = document.getElementById('options')
@@ -308,7 +326,10 @@ function renderQuestion() {
   renderMap()
 }
 
-function beginQuiz() {
+async function beginQuiz() {
+  // Load (randomized) questions from API with daily seed and default count
+  const dailySeed = new Date().toISOString().slice(0,10).replace(/-/g, '')
+  await loadQuestions({ count: 10, seed: dailySeed })
   index = 0
   correct = 0
   start = performance.now()

@@ -1,0 +1,131 @@
+{
+  "questions": [
+    {
+      "q": "What is the main driver of recent global warming?",
+      "options": ["Changes in solar output", "Human emissions of greenhouse gases", "Natural orbital cycles", "Volcanic aerosols"],
+      "answer": 1,
+      "explanation": "Human emissions of greenhouse gases (especially CO₂) dominate recent warming; solar and natural cycles cannot explain the sustained trend since the mid‑20th century."
+    },
+    {
+      "q": "Which gas contributes most to human-caused warming?",
+      "options": ["Ozone", "Nitrous oxide", "Carbon dioxide", "Water vapor"],
+      "answer": 2,
+      "explanation": "CO₂ contributes most due to its high concentration and long lifetime; water vapor is a feedback, not the primary driver."
+    },
+    {
+      "q": "What sector is a major source of CO₂ emissions?",
+      "options": ["Residential heating", "Transportation", "Forestry", "Agriculture only"],
+      "answer": 1,
+      "explanation": "Transportation burns fossil fuels at scale, making it a major source of CO₂ alongside power generation."
+    },
+    {
+      "q": "Which solution reduces greenhouse gas emissions?",
+      "options": ["Expanding coal plants", "Energy efficiency and renewables", "Removing wetlands", "Increasing flaring"],
+      "answer": 1,
+      "explanation": "Efficiency and renewable energy reduce fossil fuel use and emissions; coal expansion increases emissions."
+    },
+    {
+      "q": "What is a key effect of global warming?",
+      "options": ["Stable sea levels", "More frequent heat waves", "Decreased ocean heat content", "No change in precipitation"],
+      "answer": 1,
+      "explanation": "Warming increases the frequency and intensity of heat waves; sea levels and ocean heat content rise, not fall."
+    },
+    {
+      "q": "Which factor currently contributes strongly to sea-level rise?",
+      "options": ["Thermal expansion of warming oceans", "Tectonic uplift", "River sediment deposition", "Soil erosion"],
+      "answer": 0,
+      "explanation": "As water warms it expands, raising sea level; this thermal expansion is a key contributor alongside ice melt."
+    },
+    {
+      "q": "Ocean acidification is primarily caused by?",
+      "options": ["Dissolved CO₂ forming carbonic acid", "Plastic pollution", "Nitrogen runoff", "Decreased salinity"],
+      "answer": 0,
+      "explanation": "CO₂ dissolves into seawater forming carbonic acid, lowering pH—this is the root of ocean acidification."
+    },
+    {
+      "q": "What increases Earth's radiative forcing?",
+      "options": ["Higher atmospheric CO₂", "Increased volcanic aerosols", "Reduced solar output", "Greater cloud albedo"],
+      "answer": 0,
+      "explanation": "Higher atmospheric CO₂ increases radiative forcing by trapping more outgoing longwave radiation."
+    },
+    {
+      "q": "Which personal action most reduces emissions?",
+      "options": ["Switching to renewable electricity", "Buying bottled water", "Increasing air conditioning use", "Longer daily commutes"],
+      "answer": 0,
+      "explanation": "Switching to renewable electricity directly cuts emissions associated with power use."
+    },
+    {
+      "q": "A major source of methane emissions is?",
+      "options": ["Wetlands and livestock", "Desert sands", "Polar sea ice", "Granite bedrock"],
+      "answer": 0,
+      "explanation": "Natural wetlands and livestock are major methane sources; deserts and ice are not."
+    },
+    {
+      "q": "How does deforestation affect climate?",
+      "options": ["Reduces carbon sinks and alters albedo", "Raises global rainfall instantly", "Lowers atmospheric CO₂", "Cools the oceans"],
+      "answer": 0,
+      "explanation": "Deforestation reduces carbon sinks and changes surface reflectivity (albedo), contributing to warming."
+    },
+    {
+      "q": "Sulfate aerosols tend to?",
+      "options": ["Cool by reflecting sunlight", "Warm by trapping infrared", "Have no climate effect", "Increase greenhouse gas concentrations"],
+      "answer": 0,
+      "explanation": "Sulfate aerosols scatter sunlight, producing a cooling effect that partially offsets greenhouse warming."
+    },
+    {
+      "q": "The carbon budget refers to?",
+      "options": ["Allowable emissions to meet warming targets", "Government spending plans", "Household energy bills", "Forest area worldwide"],
+      "answer": 0,
+      "explanation": "The carbon budget is the remaining allowable emissions to meet temperature targets (e.g., 1.5–2°C)."
+    },
+    {
+      "q": "Permafrost thaw can lead to?",
+      "options": ["Release of stored methane and CO₂", "More reflective sea ice", "Immediate global rainfall increase", "Soil stabilization"],
+      "answer": 0,
+      "explanation": "Thawing permafrost releases previously trapped methane and CO₂, amplifying warming."
+    },
+    {
+      "q": "The Paris Agreement aims to?",
+      "options": ["Limit warming well below 2°C", "Eliminate all GHGs by 2020", "Stop earthquakes globally", "Ban solar farms"],
+      "answer": 0,
+      "explanation": "The Paris Agreement’s central goal is to limit warming well below 2°C, pursuing 1.5°C."
+    },
+    {
+      "q": "Which sector transition most cuts CO₂ quickly?",
+      "options": ["Decarbonizing power with renewables", "Expanding coal mining", "Increasing flaring", "Reducing public transit"],
+      "answer": 0,
+      "explanation": "Rapid CO₂ cuts come from decarbonizing electricity generation via renewables and clean technologies."
+    },
+    {
+      "q": "What is the primary cause of the \"greenhouse effect\"?",
+      "options": ["Heat trapped by atmospheric gases", "Heat from the Earth's core", "Direct solar radiation", "Reflection from polar ice"],
+      "answer": 0,
+      "explanation": "The greenhouse effect occurs when atmospheric gases trap heat radiating from Earth toward space."
+    },
+    {
+      "q": "Which international body assesses climate change science?",
+      "options": ["IPCC", "WHO", "UNESCO", "NATO"],
+      "answer": 0,
+      "explanation": "The Intergovernmental Panel on Climate Change (IPCC) is the UN body for assessing the science related to climate change."
+    },
+    {
+      "q": "What is \"albedo\"?",
+      "options": ["A measure of reflectivity", "A type of greenhouse gas", "A unit of temperature", "A carbon capture technology"],
+      "answer": 0,
+      "explanation": "Albedo is the fraction of light that a surface reflects. Ice has high albedo, while dark oceans have low albedo."
+    },
+    {
+      "q": "Which of these is a potential consequence of melting polar ice caps?",
+      "options": ["Disruption of ocean currents", "Increased freshwater salinity", "Lower sea levels", "Reduced atmospheric pressure"],
+      "answer": 0,
+      "explanation": "Melting ice caps add freshwater to oceans, potentially disrupting critical ocean currents like the AMOC."
+    },
+    {
+      "q": "What is \"carbon sequestration\"?",
+      "options": ["Capturing and storing atmospheric CO2", "Burning carbon for fuel", "Releasing carbon from rocks", "Measuring carbon footprints"],
+      "answer": 0,
+      "explanation": "Carbon sequestration involves capturing atmospheric carbon dioxide and storing it to mitigate global warming."
+    }
+  ]
+}
+
